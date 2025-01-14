@@ -1,0 +1,136 @@
+body {
+    text-align: center;
+    align-content: center;
+}
+.main{
+    background-color: #f1f1f1;
+    padding: 5px;
+    max-width: 1000px;
+    padding: 10px;
+    position: relative;
+    left:50%;
+    transform: translate(-50%);
+    text-align: center;
+    align-items: center;
+}
+.goc1{
+    padding: 5px;
+    max-width: 300px;
+    max-height: 300px;
+    padding: 0px;
+    position: fixed;
+    left:-10px;
+    top:0px;
+}
+.goc3{
+    padding: 5px;
+    max-width: 300px;
+    max-height: 300px;
+    padding: 0px;
+    position: fixed;
+    right:-10px;
+    bottom:-10px;
+}
+.menu{
+    background-color: #f8fcfa00;
+    position: absolute;
+    transition: 0s all;
+    left:0px;
+    top:50px;
+    width: 200px;
+    height: 100px;
+    padding: 1px;
+    text-align: left;
+    background-origin: border-box;
+    opacity: 0.0;
+}
+.menu:hover{
+    left:5px;
+    top:10px;
+    transform-style: preserve-3d;
+    transition:1s all;
+    height: 300px;
+    opacity: 1;
+}
+.submenu{
+    background-color: #bc92987a;
+    position: absolute;
+    left:10px;
+    bottom:10px;
+    width: 150px;
+    height: 100px;
+    padding: 1px;
+    text-align: left;
+    background-origin: border-box;
+    border-radius: 10px;
+    border-style: dotted;
+    border-color: #b65a5a;
+}
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+.content {
+    padding: 16px;
+    background-color: #cd2525;
+    text-align: center;
+    align-items: center;
+}
+.content_1 {
+    padding: 16px;
+    background-color: #f1f1f1;
+    text-align: center;
+    align-items: center;
+    border-style: dotted;
+    border-width: 1px;
+    border-color: #d45a5a;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+}
+.content_2 {
+    padding: 16px;
+    background-color: #e0d076;
+    text-align: center;
+    align-items: center;
+    border-style: dotted;
+    border-width: 1px;
+    border-color: #3c023b;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+}
+.content_3 {
+    padding: 16px;
+    background-color: #abe2e4;
+    text-align: center;
+    align-items: center;
+    border-style: dotted;
+    border-width: 1px;
+    border-color: #7d4edb;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+}
+.content_4 {
+    padding: 16px;
+    background-color: #b4e2d0;
+    text-align: center;
+    align-items: center;
+    border-style: dotted;
+    border-width: 1px;
+    border-color: #206354;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+}
+.footer {
+    background-color: #4ab081;
+    padding: 10px;
+    text-align: left;
+}
+.maintable{
+    align-items: center;
+    text-align: center;
+}
